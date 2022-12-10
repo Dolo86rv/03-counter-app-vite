@@ -10,5 +10,7 @@ describe('Pruebas en 07-deses-arr', () => {
 
         expect(typeof letters).toBe('string')
         expect(typeof numbers).toBe('number')
+
+        expect(letters).toEqual(expect.any(String))
     })
 })
