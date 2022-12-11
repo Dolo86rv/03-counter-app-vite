@@ -1,5 +1,3 @@
-
-
 export const getImagen = async() => {
 
     try {
