@@ -7,7 +7,7 @@ export const App = () => {
     return (
         <>
             <FirstComponent title='Hi, I am Dolores' subtitle={123} />
-            <CounterApp value={36} />
+            <CounterApp value={100} />
         </>
     )
 }

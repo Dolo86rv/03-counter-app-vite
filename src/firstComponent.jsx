@@ -14,10 +14,11 @@ export const FirstComponent = ({ title, subtitle, name }) => {
     
     return (
         <>
-            <h1>Welcome!!!</h1>
+            <p>Welcome!!!</p>
             <code>{ JSON.stringify(newMessage)}</code>
             <p>{getNombre('Valentina')}</p>
-            <p>{ title} {subtitle}</p>
+            <h1 data-testid="test-title">{title}</h1>
+            <p>{subtitle}</p>
             <p>{name}</p>
         </>
         
